@@ -11,18 +11,6 @@ export default createGlobalStyle`
     }
   }
 
-  :root {
-  /* Your default theme */
-  --background: white;
-  --foreground: black;
-  }
-
-  [data-theme='dark'] {
-  --background: black;
-  --foreground: white;
-  }
-
-
   .loader {
     width: 48px;
     height: 48px;

@@ -4,7 +4,7 @@ import React from 'react'
 
 import * as S from "./styles"
 
-export const Providers = ({ children }) => {
+export default function Providers({ children }) {
   return (
     <ThemeProvider enableSystem={true} attribute="data-theme">
       <S.StyledProvider>{children}</S.StyledProvider>

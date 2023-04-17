@@ -21,7 +21,7 @@ export default function Home() {
       const data = await res.json();
       setResults(data.results);
 
-    }; n
+    };
 
     fetchResults();
 
