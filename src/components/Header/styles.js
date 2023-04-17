@@ -10,21 +10,30 @@ export const Menu = styled.div`
   margin-left: auto; 
   margin-right: auto; 
   align-items: center; 
-  padding-top: 1.5rem; 
-  padding-bottom: 1.5rem; 
+  padding: 1.5rem; 
+  @media (max-width: 640px) {
+    justify-content: center;
+  }
+  
 `
 export const MenuContainer = styled.div`
   display: flex;
+  align-items: center;
+  
+  
+  
 `
 
 export const LogoContainer = styled.div`
     display: flex;
     align-items: center;
     gap: 5px;
+   
 `
 
 export const LogoTitle = styled.h2`
 font-size: 1.5rem;
+
 @media (max-width: 640px) {
     display: none; 
   }
@@ -34,13 +43,10 @@ font-size: 1.5rem;
 
 `
 export const FirstSpan = styled.span`
-color: #000;
+  color: #000;
   font-weight: bold;
   background-color: #2E8B57;
-  padding-top: 0.25rem; 
-  padding-bottom: 0.25rem;
-  padding-left: 0.5rem; 
-  padding-right: 0.5rem; 
+  padding: 0.25rem 0.5rem;
   border-radius: 0.5rem; 
 
 `

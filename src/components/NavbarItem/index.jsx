@@ -7,9 +7,9 @@ export const NavbarItem = ({ title, param }) => {
 
     return (
         <div>
-            <S.NabBarItemLink href={`/?genre=${param}`}>
+            <S.NavBarItemLink href={`/?genre=${param}`}>
                 {title}
-            </S.NabBarItemLink>
+            </S.NavBarItemLink>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import { AiFillHeart } from "react-icons/ai";
 
 export const Container = styled.div`
   width: 100%;
+ 
  `;
 
 export const Content = styled.div`
@@ -13,21 +14,15 @@ export const Content = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  max-width: 80rem;
+  max-width: 67rem;
   margin: auto;
   gap: 1rem;
-  
-  
-  @media (max-width: 1100px) {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    }
+   
 `;
 
 export const MovieImage = styled(Image)`
   border-radius: 0.5rem;
-  width:80%;
+  width:100%;
   height: auto;
   @media (max-width: 1100px) {
     width:100%;
@@ -43,6 +38,10 @@ export const MovieDetails = styled.div`
 
   p {
     font-size: 1.25rem;
+  }
+
+  span{
+    font-weight: bold;
   }
 `;
 

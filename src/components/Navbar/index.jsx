@@ -7,8 +7,8 @@ export const Navbar = () => {
 
     return (
         <S.NavBarContainer>
-            <NavbarItem title={'Trending'} param="fecthTrending" />
-            <NavbarItem title={'Top Rated'} param="fecthTopRated" />
+            <NavbarItem title={'Em Alta'} param="fecthTrending" />
+            <NavbarItem title={'Mais votado'} param="fecthTopRated" />
         </S.NavBarContainer>
     )
 }

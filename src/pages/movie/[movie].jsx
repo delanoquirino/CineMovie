@@ -41,15 +41,15 @@ export default function Movieid() {
                 <S.MovieDetails>
                     <h2>{movie.title || movie.name}</h2>
                     <p>
-                        <span >Overview: </span>
+                        <span >Resumo: </span>
                         {movie.overview}
                     </p>
                     <p>
-                        <span >Released Date: </span>
+                        <span >Data de lançamento: </span>
                         {movie.first_air_date || movie.release_date}
                     </p>
                     <S.Rating>
-                        <span >Rating: </span>
+                        <span >Avaliação: </span>
                         <S.Heart className="text-red-500" />
                         {movie.vote_count}
                     </S.Rating>

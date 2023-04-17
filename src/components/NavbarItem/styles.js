@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Link from 'next/link'
 
-export const NabBarItemLink = styled(Link)`
+export const NavBarItemLink = styled(Link)`
   margin: 1rem;
   font-weight: 600; 
   padding: 0.5rem; 
@@ -11,6 +11,9 @@ export const NabBarItemLink = styled(Link)`
   &:hover {
       color: #2E8B57; 
     }
- 
+    @media (max-width: 640px) {
+    font-size: 70%;
+    margin: 0;
+  }
  
 `
