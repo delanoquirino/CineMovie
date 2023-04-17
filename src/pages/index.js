@@ -1,6 +1,7 @@
 import { Results } from "@/components/Results";
 import { useState, useEffect } from "react";
 import useUrl from "./useUrl";
+import Head from "next/head";
 
 
 const API_KEY = "eadadc1ea1014e5a45d91727f1286d8d";
@@ -20,7 +21,7 @@ export default function Home() {
       const data = await res.json();
       setResults(data.results);
 
-    };
+    }; n
 
     fetchResults();
 
@@ -28,6 +29,9 @@ export default function Home() {
 
   return (
     <div>
+      <Head>
+        <title>CineMovie</title>
+      </Head>
       <Results results={results} />
     </div>
   );
