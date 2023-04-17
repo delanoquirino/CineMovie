@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import useUrl from "../useUrl";
+import useUrl from "../../hook/useUrl";
 
 import * as S from '../../styles/movie'
 

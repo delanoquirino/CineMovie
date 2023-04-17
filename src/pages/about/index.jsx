@@ -1,8 +1,8 @@
 import React from 'react'
 
-import * as S from './styles'
+import * as S from '../../styles/about'
 
-const About = () => {
+export default function About() {
     return (
         <><S.About>
             <S.AboutTitle>About Us</S.AboutTitle>
@@ -16,5 +16,3 @@ const About = () => {
         </>
     )
 }
-
-export default About

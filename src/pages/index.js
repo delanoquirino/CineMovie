@@ -1,6 +1,6 @@
 import { Results } from "@/components/Results";
 import { useState, useEffect } from "react";
-import useUrl from "./useUrl";
+import useUrl from "../hook/useUrl";
 import Head from "next/head";
 
 
