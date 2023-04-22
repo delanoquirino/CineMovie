@@ -1,7 +1,8 @@
 import { Results } from "@/components/Results";
 import { useState, useEffect } from "react";
 import useUrl from "../hook/useUrl";
-import Head from "next/head";
+
+
 
 
 const API_KEY = "eadadc1ea1014e5a45d91727f1286d8d";
@@ -29,9 +30,7 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
-        <title>CineMovie</title>
-      </Head>
+
       <Results results={results} />
     </div>
   );
