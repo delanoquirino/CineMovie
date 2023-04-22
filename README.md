@@ -1,5 +1,5 @@
 # CineMovie
-Project with React, consuming the TMDB API using fetch.
+Project with Next.js, consuming the TMDB API using fetch.
 
 ### Demo
 
